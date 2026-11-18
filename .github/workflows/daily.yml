@@ -2,9 +2,7 @@ name: Trae AutoCheckin Daily
 
 on:
   schedule:
-    # - cron: '52 2 * * *'    # 北京时间 08:35
-    # - cron: '35 12 * * *'   # 北京时间 20:35
-    - cron: '*/5 * * * *'   # 临时测试：每 10 分钟
+    - cron: '*/5 * * * *'  
   workflow_dispatch:
 
 
